@@ -19,19 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-===============================================================================
-THIRD-PARTY CONTENT
-
-The licence above covers the work in this repository authored by the copyright
-holder. It does not cover the files listed below, which are redistributed here
-for reproducibility and remain under the terms of their original sources.
-
-  models/
-      SKY130 device models and process corner parameters.
-      Copyright Google LLC and SkyWater Technology Foundry.
-      Apache License 2.0. https://github.com/google/skywater-pdk
-
-      models/patched/critical_nocollide.spice is the PDK's own parameter file
-      with a name collision worked around; the content is the foundry's.
